@@ -27,7 +27,7 @@ public class AopApplication {
 		accountDao.addAccount();
 		theMembershipDao.addAccount();
 		System.out.println("call it again");
-		accountDao.addAccount();
+		//accountDao.addAccount();
 	}
 
 }

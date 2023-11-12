@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 @Component
 
 public class MyDemoLoginAspect {
-    @Before("execution (public void addAccount())")
+    @Before("execution (public void AOP.AOP.dao.AccountDao.addAccount())")
     public void beforeAddAccountAdvice(){
-        System.out.println("Excutiction before advice");
+        System.out.println("Excutiction before advice on Aspect");
 
     }
 }
